@@ -3,11 +3,13 @@
 }
 
 .App-logo {
-  height: 40vmin;
+  max-height: auto;
+  max-width: 500px;
 }
 
 .App-header {
   background-color: #282c34;
+  background-image: url("bg-striped.jpg");
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -19,4 +21,12 @@
 
 .App-link {
   color: #09d3ac;
+}
+
+.Content {
+  background-color :black;
+  border: #222222;
+  border-style: dashed;
+  border-width: 1px;
+  padding: 50px;
 }
