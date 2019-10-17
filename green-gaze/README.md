@@ -12,6 +12,15 @@ Contributors to this project:
 - npm 5.2+
 - tbd
 
+## Notes
+
+This uses both React and Flask for Python. You need to follow Flask's setup scripts (on macOS):
+
+`python2 -m virtualenv venv`
+
+`. venv/bin/activate`
+
+(via https://flask.palletsprojects.com/en/1.1.x/installation/)
 
 
 ## Available Scripts
