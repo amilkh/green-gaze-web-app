@@ -12,20 +12,18 @@ function App() {
         <img src={logo} className="App-logo" alt="logo" />
         <div className="Content">
           <p>
-            Edit <code>src/App.js</code> and save to reload.
-            <br />
             Upload an image to begin
             <br />
-            Add image uploading capability here
+            Add callback to Juypter / Greenplum for Keras importing here
           </p>
-          <ImageUploader />
+          <ImageUploader withPreview={true}/>
           <a
             className="App-link"
-            href="https://reactjs.org"
+            href="#pleasechangemetosomethinguseful"
             target="_blank"
             rel="noopener noreferrer"
           >
-            Learn React
+            Learn more about deforestation in the Amazon
           </a>
         </div>
         <div className="Footer">
