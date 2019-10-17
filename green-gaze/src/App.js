@@ -1,6 +1,9 @@
-import React from 'react';
+import React, {useCallback} from 'react';
 import logo from './logo-gg.png';
 import './App.css';
+// Our imports
+import ImageUploader from 'react-images-upload';
+import {useDropzone} from 'react-dropzone'
 
 function App() {
   return (
@@ -15,6 +18,7 @@ function App() {
             <br />
             Add image uploading capability here
           </p>
+          <ImageUploader />
           <a
             className="App-link"
             href="https://reactjs.org"

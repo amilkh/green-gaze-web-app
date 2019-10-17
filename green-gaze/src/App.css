@@ -25,11 +25,9 @@
 }
 
 .Content {
-  background-color :#121211;
-  border: #222222;
-  border-style: dashed;
-  border-width: 1px;
+  background-color: #eeeeee;
   padding: 50px;
+  color: black;
 }
 
 .Footer {
