@@ -4,6 +4,7 @@
   "private": true,
   "dependencies": {
     "react": "^16.10.2",
+    "react-csv-to-table": "0.0.2",
     "react-dom": "^16.10.2",
     "react-dropzone": "^10.1.10",
     "react-images-upload": "^1.2.7",
